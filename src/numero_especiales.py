@@ -12,8 +12,9 @@ def  calcular_suma_pares_no_multiplos_de_3():
                 pass
             else:
                 listapares.append(i)
-                suma += i
-    return suma
+                for j in len(listapares):
+                    suma += j
+        return suma
     
 
 def calcular_suma_impares_no_multiplos_de_3():
@@ -25,15 +26,16 @@ def calcular_suma_impares_no_multiplos_de_3():
                 pass
             else:
                 listaimpares.append(i)
-                suma += i
-    return suma
+                for j  in len(listaimpares):
+                    suma += j
+        return suma
 
 def mensaje():
     pares = calcular_suma_pares_no_multiplos_de_3
     impares = calcular_suma_impares_no_multiplos_de_3
 
-    print(f"La suma de los pares es: {pares}")
-    print(f"La suma de los impares es: {impares}")
+    print("La suma de los pares es: ", pares)
+    print("La suma de los impares es:", impares)
 
 
 if __name__=="__main__":
