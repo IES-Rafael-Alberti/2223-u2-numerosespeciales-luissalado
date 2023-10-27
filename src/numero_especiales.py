@@ -15,16 +15,19 @@ def leernumero():
     
 num =leernumero()  
 
-def  calcular_suma_pares_no_multiplos_de_3(num):
+def  calcular_suma_pares_no_multiplos_de_3():
+    listapares=[]
     for i in range(10,20):
         if i % 2 == 0:
-            l
+            suma = suma
+            return 
     
 
 def calcular_suma_impares_no_multiplos_de_3(num):
     listaimpares =[]
     for i in range (10,20):
         if not i % 2 == 0:
+
 
 
 
